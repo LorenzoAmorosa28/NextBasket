@@ -95,6 +95,12 @@
 		.classifica-item:last-child {
 			border-bottom: none; /* togli la linea all'ultima riga */
 		}
+		.spazio-ridotto {
+			min-height: 6px;
+			line-height: 6px;
+			font-size: 0;
+			display: block;
+		}
 		
 	</style>
 	<body class="right-sidebar is-preload">
@@ -123,7 +129,7 @@
 			<!-- Main -->
 				<section id="main" style="text-align: center;">
 					<!-- RISULTATI -->
-					<h2>Risultati e Calendario</h2>
+					<h2>Risultati</h2>
 					<br>
 					<button class="girone-toggle" onclick="toggle(this)">
 						<span class="titolo-girone">Girone 1&nbsp;&nbsp;&nbsp;</span>
@@ -166,6 +172,49 @@
 						<div>OLIO SU TEGLIA 8-10 PL SUPREMO</div>
 						<div>PL SUPREMO 12-10 TRE Y UNO</div>
 					</div>
+					<br>
+					<h2>Calendario</h2>
+					<br>
+					<button class="girone-toggle" onclick="toggle(this)">
+						<span class="titolo-girone">Giornata 2&nbsp;&nbsp;&nbsp;</span>
+						<span class="freccia">▶</span>
+					</button>
+
+					<div class="contenuto-girone">
+						<div>OLIO SU TEGLIA - BIRRA PAGATA (A)</div>
+						<div>TRE Y UNO - P.L. SUPREMO (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>PARTIZAN DEGRADO - GIN & ROLL (A)</div>
+						<div>SPRITZ & ROLL - I TORTELLINI (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>OLIO SU TEGLIA - TRE Y UNO (A)</div>
+						<div>BIRRA PAGATA - P.L. SUPREMO (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>I SANTONI - NO FOUL NO FUN (A)</div>
+						<div>RIPA STREET - Y&O STARS (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>OLIO SU TEGLIA - P.L. SUPREMO (A)</div>
+						<div>BIRRA PAGATA - TRE Y UNO (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>PARTIZAN DEGRADO - I TORTELLINI (A)</div>
+						<div>GIN & ROLL - SPRITZ & ROLL (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>BIRRA PAGATA - TRE Y UNO (A)</div>
+						<div>I SANTONI - RIPA STREET (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>NO FOUL NO FUN - Y&O STARS (A)</div>
+						<div>PARTIZAN DEGRADO - SPRITZ & ROLL (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>GIN & ROLL - I TORTELLINI (A)</div>
+						<div>BIRRA PAGATA - OLIO SU TEGLIA (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>I SANTONI - Y&O STARS (A)</div>
+						<div>NO FOUL NO FUN - RIPA STREET (B)</div>
+						<div class="spazio-ridotto">&nbsp;</div>
+						<div>BIRRA PAGATA - P.L. SUPREMO (A)</div>
+						
+					</div>
+					<br>
 
 					<!-- CLASSIFICA -->
 					<br>
